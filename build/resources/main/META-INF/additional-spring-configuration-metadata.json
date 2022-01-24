@@ -1,0 +1,9 @@
+{
+  "properties": [
+    {
+      "name": "test.text",
+      "defaultValue": "hello world",
+      "description": "测试配置文本 ."
+    }
+  ]
+}

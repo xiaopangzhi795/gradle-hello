@@ -11,11 +11,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @ClassName: App
  * @Decription:
  * @Author: rubik
- *  rubik create App.java of 2022/1/24 12:01 下午
+ * rubik create App.java of 2022/1/24 12:01 下午
  */
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "com.geek45")
 public class App {
-
     public static void main(String[] args) {
         SpringApplication.run(App.class, args);
     }

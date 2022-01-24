@@ -1,0 +1,18 @@
+{
+  "group": [
+    {
+      "name": "test",
+      "type": "com.geek45.config.TestConfig",
+      "description": "测试配置 ."
+    }
+  ],
+  "properties": [
+    {
+      "name": "test.text",
+      "type": "java.lang.String",
+      "sourceType": "com.geek45.config.TestConfig",
+      "defaultValue": "hello world",
+      "description": "测试配置文本 ."
+    }
+  ]
+}
